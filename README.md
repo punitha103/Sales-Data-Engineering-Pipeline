@@ -238,9 +238,32 @@ dim_date ─────── fact_sales ─────── dim_sales_rep
 ```bash
 git clone https://github.com/punitha103/Sales-Data-Engineering-Pipeline.git
 cd Sales-Data-Engineering-Pipeline
+```
+### Step 2 — Install Required Python Libraries
 
+```bash
 pip install pandas pyspark
+```
+
+### Step 3 — Run Data Validation
+```bash
 python Scripts/csv_validation.py
+```
+
+### Step 4 — Run PySpark Transformation
+```bash
 python Scripts/pyspark_transform.py
+```
+
+### Step 5 — Load Data into SQL Server
+```bash
 python Scripts/sql_server_load.py
 ```
+
+### Step 6 — Run Airflow
+
+Start Airflow and run the project DAG from the Airflow UI.
+
+### Step 7 — View the Dashboard
+
+Open the Power BI dashboard and refresh the data.

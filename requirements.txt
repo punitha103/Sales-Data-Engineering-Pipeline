@@ -1,0 +1,18 @@
+pandas
+pyspark
+
+pandas → CSV validation / data handling
+pyspark → data cleaning & transformation
+
+Sales_Data_Engineering/
+│
+├── Data/
+├── Bronze/
+├── Silver/
+├── Gold/
+├── Scripts/
+├── SQL/
+├── Airflow/
+├── PowerBI/
+├── README.md
+└── requirements.txt
