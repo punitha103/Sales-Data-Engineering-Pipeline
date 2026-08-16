@@ -193,3 +193,54 @@ SQL Server
    ↓
 Power BI
 ```
+
+## 🗄️ Data Warehouse Design
+
+The Gold layer follows a **Star Schema** design.
+
+### Dimension Tables
+
+- `dim_product` – Product information
+- `dim_date` – Date-related attributes
+- `dim_sales_rep` – Sales representative information
+- `dim_region` – Region information
+
+### Fact Table
+
+- `fact_sales` – Stores sales transactions and measurable business metrics
+
+### 📊 Star Schema
+
+```text
+                  dim_product
+                       │
+                       │
+dim_date ─────── fact_sales ─────── dim_sales_rep
+                       │
+                       │
+                  dim_region
+```
+
+## 📈 Project Outcome
+
+- Built an end-to-end sales data engineering pipeline.
+- Implemented Bronze, Silver, and Gold data layers.
+- Performed data validation and transformation using Python and PySpark.
+- Designed a Star Schema with Fact and Dimension tables.
+- Loaded analytical data into SQL Server.
+- Automated pipeline workflows using Apache Airflow.
+- Prepared business-ready data for Power BI reporting and analytics.
+
+## ▶️ How to Run the Project
+
+### Step 1 — Clone the Repository
+
+```bash
+git clone https://github.com/punitha103/Sales-Data-Engineering-Pipeline.git
+cd Sales-Data-Engineering-Pipeline
+
+pip install pandas pyspark
+python Scripts/csv_validation.py
+python Scripts/pyspark_transform.py
+python Scripts/sql_server_load.py
+```
