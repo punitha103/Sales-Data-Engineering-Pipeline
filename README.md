@@ -106,6 +106,7 @@ Sales_Data_Engineering/
 │   └── Dashboard files/screenshots
 │
 └── README.md
+```
 
 ## 🎯 Key Features
 
@@ -157,3 +158,4 @@ Sales_Data_Engineering/
 
               Apache Airflow
           Workflow Orchestration
+```      
