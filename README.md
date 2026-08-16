@@ -159,3 +159,37 @@ Sales_Data_Engineering/
               Apache Airflow
           Workflow Orchestration
 ```      
+
+## 🔄 ETL Workflow
+
+The sales data pipeline follows these steps:
+
+1. **Extract** – Collect raw sales data from CSV files.
+2. **Validate** – Validate columns, data types, null values, and duplicate records using Python.
+3. **Bronze Layer** – Store the raw data without major transformations.
+4. **Transform** – Clean and transform the data using PySpark.
+5. **Silver Layer** – Store cleaned and standardized data.
+6. **Gold Layer** – Create business-ready Fact and Dimension tables.
+7. **Load** – Load the processed data into SQL Server.
+8. **Orchestrate** – Use Apache Airflow to automate and monitor pipeline tasks.
+9. **Visualize** – Connect Power BI to the analytical data for reporting.
+
+### 📊 Data Flow
+
+```text
+Raw CSV
+   ↓
+Python Validation
+   ↓
+Bronze Layer
+   ↓
+PySpark Transformation
+   ↓
+Silver Layer
+   ↓
+Gold Layer
+   ↓
+SQL Server
+   ↓
+Power BI
+```
