@@ -271,7 +271,8 @@ Open the Power BI dashboard and refresh the data.
 
 ## 👩‍💻 Author
 
-**Punitha S**  
-🚀 *Aspiring Data Engineer*
+###  Punitha S
 
-💻 Python | ⚡ PySpark | 🗄️ SQL | 🔄 Airflow | 📊 Power BI
+## 🚀 Aspiring Data Engineer
+
+💻 Python | ⚡ PySpark | 🗄️ SQL | 🔄 Apache Airflow | 📊 Power BI
