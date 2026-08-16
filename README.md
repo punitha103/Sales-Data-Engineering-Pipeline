@@ -267,3 +267,11 @@ Start Airflow and run the project DAG from the Airflow UI.
 ### Step 7 — View the Dashboard
 
 Open the Power BI dashboard and refresh the data.
+
+
+## 👩‍💻 Author
+
+**Punitha S**  
+🚀 *Aspiring Data Engineer*
+
+💻 Python | ⚡ PySpark | 🗄️ SQL | 🔄 Airflow | 📊 Power BI
